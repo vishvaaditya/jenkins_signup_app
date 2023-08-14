@@ -16,7 +16,7 @@ def signup_post():
 
     # Save the user to the database
 
-    return "Signup successful!"
+    return "Signup successful!!!!"
 
 if __name__ == "__main__":
     app.run(debug=True)
