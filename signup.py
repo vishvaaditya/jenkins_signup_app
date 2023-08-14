@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__,template_folder = "template")
-
+# returns the html template on /signup route
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
