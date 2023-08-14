@@ -12,7 +12,7 @@ def signup_post():
     password = request.form["password"]
 
     if username == "" or password == "":
-        return "Please enter a username and password."
+        return "Please enter a username and password...."
 
     # Save the user to the database
 
