@@ -5,7 +5,7 @@ app = Flask(__name__,template_folder = "template")
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
-# route to connect to db
+# route to connect to db.
 @app.route("/signup", methods=["POST"])
 def signup_post():
     username = request.form["username"]
